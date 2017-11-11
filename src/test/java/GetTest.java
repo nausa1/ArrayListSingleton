@@ -1,8 +1,6 @@
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import java.util.ArrayList;
-
 public class GetTest {
     private static ArrayListSingleton X;
 
@@ -13,7 +11,7 @@ public class GetTest {
     }
 
     @Test
-    public void testGet() {
+    public void getTest() {
         Assert.assertTrue(X.get().contains("ass"));
     }
 }

@@ -4,7 +4,7 @@ import java.util.Random;
 public final class ArrayListSingleton {
     private static volatile ArrayListSingleton instance;
     private volatile ArrayList<String> strs;
-    private final String[] str_value = {"Fail", "Pass"};
+    public static final String[] str_value = {"Fail", "Pass"};
 
     private ArrayListSingleton() {
     }
@@ -46,5 +46,9 @@ public final class ArrayListSingleton {
 
     public synchronized void change (int i, String str) {
         strs.set(i,str);
+    }
+
+    public synchronized boolean check (int i, String str) {
+        return strs.get(i).equals(str);
     }
 }
