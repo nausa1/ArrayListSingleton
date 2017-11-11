@@ -24,7 +24,7 @@ public final class ArrayListSingleton {
         if(strs==null) {
             synchronized (this) {
                 if(strs==null) {
-                    strs = new ArrayList<String>();
+                    strs = new ArrayList<String>(100);
                     Random randomGenerator = new Random();
                     for(int i = 0; i < 100; i++) {
                         strs.add(str_value[randomGenerator.nextInt(2)]);
@@ -34,6 +34,17 @@ public final class ArrayListSingleton {
         }
     }
 
-    
+    public String get() {
+        Random randomGenerator = new Random();
+        int i = randomGenerator.nextInt(100);
+        String res;
+        synchronized (this) {
+            res = strs.get(i);
+        }
+        return res;
+    }
 
+    public synchronized void change (int i, String str) {
+        strs.set(i,str);
+    }
 }
