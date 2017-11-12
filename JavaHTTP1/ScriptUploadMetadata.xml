@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>JavaHTTP1</ScriptName>
+  <Protocol>Java over HTTP</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.java" Filter="2" />
+    <FileEntry Name="Actions.java" Filter="2" />
+    <FileEntry Name="vuser_end.java" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="JavaHTTP1.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="JavaHTTP1.prm" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
+    <FileEntry Name="249196412440.idx" Filter="1" />
+    <FileEntry Name="24919641244_onq.185.idx" Filter="1" />
+    <FileEntry Name="Action.c" Filter="1" />
+    <FileEntry Name="Actions.class" Filter="1" />
+    <FileEntry Name="ArrayListSingleton-1.0-tests.jar" Filter="1" />
+    <FileEntry Name="ArrayListSingleton-1.0.jar" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="JavaHTTP1.prm.bak" Filter="1" />
+    <FileEntry Name="JavaHTTP1.sdf" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv8oN.161.log" Filter="1" />
+    <FileEntry Name="mdrv9vK.389.log" Filter="1" />
+    <FileEntry Name="mdrvr2S.521.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="testng-6.11.jar" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="vuser_end.c" Filter="1" />
+    <FileEntry Name="vuser_init.c" Filter="1" />
+    <FileEntry Name="res\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

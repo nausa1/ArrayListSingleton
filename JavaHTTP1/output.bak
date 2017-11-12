@@ -1,0 +1,18 @@
+Virtual User Script started at: 13.11.2017 0:40:45
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Actions.
+Actions.java(22): Notify: Transaction "Change test String 1" started.
+Actions.java(26): Notify: Transaction "Change test String 1" ended with a "Pass" status (Duration: 0,0445).
+Actions.java(28): Notify: Transaction "Get test " started.
+Actions.java(38): Notify: Transaction "Get test " ended with a "Fail" status (Duration: 0,0128).
+Actions.java(38): Notify: Transaction "Get test " has 0 error message(s).
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

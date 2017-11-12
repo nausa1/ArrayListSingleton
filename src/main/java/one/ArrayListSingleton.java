@@ -1,10 +1,12 @@
+package one;
+
 import java.util.ArrayList;
 import java.util.Random;
 
 public final class ArrayListSingleton {
     private static volatile ArrayListSingleton instance;
     private volatile ArrayList<String> strs;
-    public static final String[] str_value = {"Fail", "Pass"};
+    private String[] str_value = {"Fail", "Pass"};
 
     private ArrayListSingleton() {
     }
@@ -52,3 +54,4 @@ public final class ArrayListSingleton {
         return strs.get(i).equals(str);
     }
 }
+
